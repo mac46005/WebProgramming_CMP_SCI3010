@@ -1,0 +1,67 @@
+<!DOCTYPE html charset="en">
+<!--
+    <input type="text"> defines a one line text input field
+    <input type="password"> defines a password field
+    <input type="submit"> defines a button for submitting form data to a form handler
+    <input type="reset"> defines a reset button that will reset all form values to their default values
+    <input type="radio"> defines a radio button
+    <input type="checkbox"> defines a checkbox
+    <input type="date"> is used for input fields that contain a date
+    <input type="email"> is used for input fields that should contain an e-mail address
+-->
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title></title>
+        <meta name="viewport" content="width=device-width,inital-scale=1"/>
+        <link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form>
+            <label for="firstName">First Name:</label><br/>
+            <input id="firstName" type="text" name="firstName" value="Marco"/><br/>
+            Last name:<br/>
+            <input type="text" name="lastName" placeholder="Preciado"/>
+
+            <label for="readOnly">Read Only:</label><br/>
+            <input id="readOnly" type="text" name="readOnly" value="Read Only" readonly="readonly"/><br/>
+
+            <label for="disabled">Disabled:</label><br/>
+            <input id="disabled" type="text" name="disabled" value="Disabled" disabled="disabled"/>
+
+            <hr/>
+            <label for="password">Password:</label><br/>
+            <input id="password" type="password" name="password"/>
+
+            <label for="passwordConfirm">Password Confirm:</label><br/>
+            <input id="passwordConfirm" type="password" name="password" required="required" size="40"/>
+            
+            <hr/>
+            <input type="radio"
+            name="gender" id="maleGender"
+            value="male"/><label for="maleGender">Male</label><br/>
+            <input type="radio"
+            name="gender" id="femaleGender"
+            value="female"/><label for="femaleGender">Female</label><br/>
+            <input type="radio"
+            name="gender" id="otherGender"
+            value="other"/><label for="otherGender">Other</label>
+            <hr/>
+            <input type="checkbox"
+            name="car" id="car"
+            value="car"/><label for="car">Car</label><br/>
+            <input type="checkbox"
+            name="bike" id="bike"
+            value="bike"/><label for="bike">Bike</label><br/>
+            <hr/>
+            <label for="birthDay">Date of birth:</label>
+            <input id="birthDay" type="date" name="birthDay"/><br/>
+            <hr/>
+            <label for="email">Email:</label><br/>
+            <input id="email" type="email" name="email"/><br/>
+            <hr/>
+            <input type="submit" value="Submit Data"/>
+            <input type="reset" value="Reset Data"/>
+        </form>
+    </body>
+</html>
