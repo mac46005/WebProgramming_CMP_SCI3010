@@ -1,0 +1,82 @@
+<!--
+    CSS is a language that describes the style of an HTML document.
+
+    CSS stands for Cascading Style Sheets
+
+    CSS is used to define styles for your web pages, including the design,
+    layout and variations in display for different devices and screen sizes.
+
+    With an external stylesheet file, you can change the look of an entire
+    website by changing just one file!
+
+    Three ways to Insert CSS:
+    1) External style sheet - use <link> tag
+    2) Internal style sheet - use <style> tag
+    3) Inline style - use style attribute directly on any HTML tag
+
+    Cascading Order
+    What style will be used when there is more than one style specific for
+    an HTML element?
+
+    All the styles in a page will "cascade" into a new "virtual" style sheet
+    by the following rules, where number one has the highest priority:
+
+    1) Inline style (inside an HTML element)
+    2) External and internal style sheets (in the head section)
+    3) Browser default
+
+    So, an inline style has the highest priority, and will override external
+    and internal styles and browser defaults.
+-->
+
+
+<!DOCTYPE html charset="en">
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title></title>
+        <meta name="viewport" content="width=device-width,inital-scale=1"/>
+        <link href="./css/cssintro/stylesheet1.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/cssintro/stylesheet2.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/cssintro/stylesheet3.css" rel="stylesheet" type="text/css"/>
+        <link href="./css/cssintro/stylesheet4.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container wrapper">
+            <div id="top">
+                <h1>Welcome to My Homepage</h1>
+                <p>Use the menu to select Stylesheets</p>
+            </div>
+            <div class="wrapper">
+                <div id="menubar">
+                    <ul id="menulist">
+                        <li class="menuitem" onclick="reStyle(0)">
+                            Stylesheet 1
+                        </li>
+
+                        <li class="menuitem" onclick="reStyle(1)">
+                            Stylesheet 2
+                        </li>
+
+                        <li class="menuitem" onclick="reStyle(2)">
+                            Stylesheet 3
+                        </li>
+
+                        <li class="menuitem" onclick="reStyle(3)">
+                            Stylesheet 4
+                        </li>
+                    </ul>
+                </div>
+                <div id="main">
+                    <h1>Same Page Different Stylesheets</h1>
+                    <p>This is a demonstration of how different stylesheets can change
+                        the layout of your HTML page. You can change the layout of this page by
+                        selecting different stylesheets in the menu, or by selecting one of the
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
