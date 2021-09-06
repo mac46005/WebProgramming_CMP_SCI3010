@@ -1,0 +1,21 @@
+/* colors.css */
+.tomato{
+    color:tomato;
+}
+.bgDodgerBlue{
+    background-color: dodgerblue;
+}
+
+.borderGreen{
+    border-style: solid;
+    border-width: 2px;
+    border-color: mediumseagreen;
+}
+
+.rgb{
+    background-color: rgb(125,99,150);
+}
+
+.hex{
+    background-color: #99AACC;
+}
