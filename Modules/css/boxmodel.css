@@ -1,0 +1,17 @@
+.margin{
+    background-color: grey;
+    border-style: dashed;
+    border-color: black;
+}
+
+.border{
+    background-color: green;
+}
+
+.padding{
+    background-color: dimgray;
+}
+
+.content{
+    border-style: dashed;
+}
