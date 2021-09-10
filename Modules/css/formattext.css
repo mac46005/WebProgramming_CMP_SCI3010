@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    text-decoration: overline;
+}
+h2{
+    text-align: left;
+    text-decoration: underline;
+}
+h3{
+    text-align: right;
+    text-decoration: line-through;
+}
+.uppercase{
+    text-transform: uppercase;
+    text-shadow: -12px -12px blue;
+}
+.lowercase{
+    text-transform: lowercase;
+    text-shadow: 5px 3px purple;
+}
+.capitalize{
+    text-transform: capitalize;
+    text-shadow: 45px 12px yellow;
+}
