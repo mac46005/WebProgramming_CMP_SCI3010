@@ -1,0 +1,27 @@
+
+
+.red{
+    color:red;
+}
+.green{
+    color:green;
+}
+.red .green{
+    color:orange;
+}
+.yellow{
+    color: yellow !important;
+}
+.blue{
+    color: blue;
+}
+
+#partA{
+    color: purple;
+}
+#partA #partB #partC{
+    color:cyan;
+}
+#partA #partB #partC #partD{
+    color: lightsteelblue;
+}
