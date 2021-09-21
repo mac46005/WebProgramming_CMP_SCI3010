@@ -7,6 +7,7 @@ window.onload = function(){
     var z = 7 * "3";
     var w = "3" * 7;
     var v = "some string" * 7;
+    var t = (5 > 4)? true : false;
 
     var typeElement = document.getElementById("type");
     if(typeElement){
