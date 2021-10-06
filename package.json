@@ -1,0 +1,27 @@
+{
+  "name": "webprogramming_cmp_sci3010",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac46005/WebProgramming_CMP_SCI3010.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mac46005/WebProgramming_CMP_SCI3010/issues"
+  },
+  "homepage": "https://github.com/mac46005/WebProgramming_CMP_SCI3010#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.7",
+    "bootstrap": "^5.1.2",
+    "postcss-cli": "^9.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  }
+}
