@@ -1,4 +1,4 @@
-window.onload(){
+window.onload = function(){
     /*
     Hoisting is Javascipt's default behavior of moving declarations
     to the top
@@ -19,6 +19,8 @@ window.onload(){
         "<br/>Hoisting element is an unknown or overlooked behavior of Javascript." +
         "<br/>" +
         "If a developer doesnt understand hoisting, programs may contain bugs." +
-        " To avoid bugs, always declare all variables at the beginning of every scope."
+        " To avoid bugs, always declare all variables at the beginning of every scope.";
+        var x;
+        var y = 7;
     }
 }
