@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/formvalidation.js"></script>
+    <title>Form Validation</title>
+</head>
+<body onload="registerHandlers();">
+    <h3>Password Input</h3>
+    <form action="" id="myForm">
+        <div id="passDiv" class="form-group">
+            <label for="initial">Your password</label>
+            <input type="password" name="" id="initial" size="10" class="form-control">
+            <span id="passErr" class="help-block hide">You did not enter a password</span>
+        </div>
+        <div id="verPassDiv" class="form-group">
+            <label for="second">Verify password</label>
+            <input type="password" name="" id="second">
+            <span id="verPassErr" class="help-block hide">Password does not match inital password</span>
+        </div>
+
+        <input type="reset" name="reset" id="" class="btn btn-info">
+        <input type="submit" name="submit" id="submitButton" disabled="disabled" class="btn btn-primary">
+    </form>
+</body>
+</html>
