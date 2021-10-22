@@ -1,6 +1,8 @@
 /* colors.css */
+
 .tomato{
     color:tomato;
+    red: rgb(255,0,0)
 }
 .bgDodgerBlue{
     background-color: dodgerblue;
