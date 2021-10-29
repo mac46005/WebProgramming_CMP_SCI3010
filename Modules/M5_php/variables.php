@@ -195,7 +195,13 @@ function staticTest(){
 /*
 Then, each time the function is called, that variable will still have
 the information it contained from the last time the function was called
+
+The variable z is still local to the function
  */
+staticTest();
+staticTest();
+staticTest();
+ 
 ?>
 
 </body>
