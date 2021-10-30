@@ -112,6 +112,19 @@
         echo "Key=" . $key . ", Value=" . $value;
         echo "<br/>";
     }
+    echo "<br/><br/>"
+
+    /*
+    Multidimensional Array
+     */
+    $cars = array(
+        array("Volvo" , 22, 18),
+        array("BMW", 15, 13),
+        array("Saab", 5, 2, "Jagged"),
+        array("Land Rover", 17, 15)
+    );
+
+    
     ?>
 </body>
 </html>
