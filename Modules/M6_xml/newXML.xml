@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Intro to XML
+-->
+<rootELement>
+    <firstChild lang="EN">
+        Any text. or can just put 5698
+        5 > 4
+    </firstChild>
+    <FIRSTCHILD>
+
+    </FIRSTCHILD>
+
+    <emptyElement/>
+    <something date="2018-02-04">
+
+    </something>
+    <date>
+        <year>
+            2012
+        </year>
+        <Month>
+            12
+        </Month>
+        <Day>
+            19
+        </Day>
+    </date>
+
+</rootELement>
