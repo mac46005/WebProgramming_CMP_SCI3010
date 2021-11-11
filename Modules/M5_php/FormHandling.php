@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <!--
 PHP Form Handling
 
@@ -52,10 +53,15 @@ THE PHP superglobals $_GET and $_POST are used to collect form-data.
 <html lang="en">
 <head>
     <?php define("title","Form Handling");?>
+=======
+<html lang="en">
+<head>
+>>>>>>> 185a301d83a0287d31f5e003ae6ba7369c453d93
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     <link href="./../css/error.css" type="text/stylesheet" rel="stylesheet"/>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -116,5 +122,10 @@ THE PHP superglobals $_GET and $_POST are used to collect form-data.
 
     <!--<p>Date: <input type"text" id="datepicker"></p>-->
     </form>
+=======
+</head>
+<body>
+    
+>>>>>>> 185a301d83a0287d31f5e003ae6ba7369c453d93
 </body>
 </html>

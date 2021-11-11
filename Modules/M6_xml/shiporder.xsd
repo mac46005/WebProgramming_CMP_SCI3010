@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    XML prolog, it must come first in the document
+
+    There are tow current versions of XML. The first (XML) was initially
+    defined in 1998. The second (XML 1.1) was initially published on
+    Feruary 4, 2004. The main changes are to enable the use of line-ending
+    characters used on EBDIC (Extended Binary Coded Decimal Interchange Code)
+    platforms, and the use of scripts and characters absent from Unicode 32.
+    XML 1.1 is not very widely implemented and is recommended for use only 
+    by those who need its unique features.
+
+    UTF-8 is the defualt character encoding for XML documents
+    UTF-8 is also the default encoding for HTML5, CSS, Javascript, PHP, and SQL.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- 
+    In the schea above we use the standard namespace (xs),
+    and the URI associated with this namespace is the Schema
+    language definition, which has the standard value of
+    http:www.w3.org/2001/XMLSchema
+-->
+<xs:element name="shiporder">
+    <!-- 
+        This element called "element" defines an XML element.
+
+        name attribute is Optional. However this attribute is required
+        if the parent element is the schema element
+    -->
+</xs:element>
+</xs:schema>
