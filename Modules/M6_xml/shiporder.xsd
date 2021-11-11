@@ -27,5 +27,18 @@
         name attribute is Optional. However this attribute is required
         if the parent element is the schema element
     -->
+    <xs:complexType>
+        <!-- 
+            A complex element is an XML element that contains other elements
+            and/or attributes.
+
+            There are four kinds of complex elements:
+            1. empty
+            2. elements that contain only other elements
+            3. elements that contain only text
+            4. elements that contain both other elements and text
+        -->
+        
+    </xs:complexType>
 </xs:element>
 </xs:schema>
