@@ -53,7 +53,7 @@
                 the element's opening and closing tags. They cannot have attributes or 
                 child elements.
             -->
-            <xs:element name="shipto">
+            <xs:element name="shipto" maxOccurs="2" minOccurs="1">
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="name" type="xs:string" maxOccurs="1" minOccurs="1"></xs:element>

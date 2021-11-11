@@ -7,4 +7,11 @@
         <city>Unknown City</city>
         <country>Unknown Country</country>
     </shipto>
+    <shipto>
+        <name>known</name>
+        <address>known Address</address>
+        <address>Unknown address</address>
+        <city>City</city>
+        <country>known Country</country>
+    </shipto>
 </shiporder>
