@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./shiporder.xsd">
     <orderperson>Marco Preciado</orderperson>
+    <shipto>
+        <name>Unknown</name>
+        <address>Unknown Address</address>
+        <city>Unknown City</city>
+        <country>Unknown Country</country>
+    </shipto>
 </shiporder>
