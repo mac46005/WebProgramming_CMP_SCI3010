@@ -63,7 +63,17 @@
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
-
+            <xs:element name="item">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="title" type="xs:string"></xs:element>
+                        <xs:element name="note" type="xs:string" minOccurs="0"></xs:element>
+                        <xs:element name="quantity" type="xs:positiveInteger"></xs:element>
+                        <xs:element name="price" type="xs:decimal"></xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="itemid" type="xs:string" use="required"></xs:attribute>
+                </xs:complexType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
