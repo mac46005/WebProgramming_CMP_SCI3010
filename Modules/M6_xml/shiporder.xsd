@@ -44,6 +44,16 @@
                 appear in a sequence. Each child element can occur from 0
                 to any number of times
             -->
+            <xs:element name="orderperson" type="xs:string"/>
+            <!-- 
+                This element is a simple type element because it does not contain 
+                any attributes or other elements.
+
+                Simple types can only have content directly contained between
+                the element's opening and closing tags. They cannot have attributes or 
+                child elements.
+            -->
+
         </xs:sequence>
     </xs:complexType>
 </xs:element>
