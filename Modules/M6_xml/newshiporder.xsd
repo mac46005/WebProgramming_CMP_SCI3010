@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- definition of simple elements -->
+<xs:element name="orderperson" type="xs:string"></xs:element>
+<xs:element name="name" type="xs:string"></xs:element>
+<xs:element name="address" type="xs:string"></xs:element>
+<xs:element name="city" type="xs:string"></xs:element>
+<xs:element name="country" type="xs:string"></xs:element>
+<xs:element name="title" type="xs:string"></xs:element>
+<xs:element name="note" type="xs:string"></xs:element>
+<xs:element name="quantity" type="xs:positiveInteger"></xs:element>
+<xs:element name="price" type="xs:decimal"></xs:element>
+
+<!-- definition of attribute-->
+<xs:attribute name="orderid" type="xs:string"></xs:attribute>
+
+<!-- definition of complex elements-->
+<xs:complexType name="shipto">
+    <xs:sequence>
+        <xs:element ref="name"></xs:element>
+        <xs:element ref="address"></xs:element>
+        <xs:element ref="city"></xs:element>
+        <xs:element ref="country"></xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+</xs:schema>
