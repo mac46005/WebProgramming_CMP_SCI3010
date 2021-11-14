@@ -122,6 +122,7 @@
         function loadDoc(){
             //xhttp.open("GET","http://www.google.com",true);
             xhttp.open("GET","ajax.txt", true);
+            //TO get around the cache item use file?variable=blah
             //xhttp.open("GET", "ajax.txt?t=" + Math.random(),true);
             xhttp.setRequestHeader("Content-type","text/plain");
             xhttp.send();
