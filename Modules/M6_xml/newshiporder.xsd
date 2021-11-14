@@ -24,4 +24,15 @@
     </xs:sequence>
 </xs:complexType>
 
+<xs:element name="item">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="title"></xs:element>
+            <xs:element ref="note"></xs:element>
+            <xs:element ref="quantity"></xs:element>
+            <xs:element ref="price"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
 </xs:schema>
