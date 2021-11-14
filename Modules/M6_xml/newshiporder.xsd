@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+
 <!-- definition of simple elements -->
 <xs:element name="orderperson" type="xs:string"></xs:element>
 <xs:element name="name" type="xs:string"></xs:element>
@@ -15,24 +17,35 @@
 <xs:attribute name="orderid" type="xs:string"></xs:attribute>
 
 <!-- definition of complex elements-->
-<xs:complexType name="shipto">
-    <xs:sequence>
-        <xs:element ref="name"></xs:element>
-        <xs:element ref="address"></xs:element>
-        <xs:element ref="city"></xs:element>
-        <xs:element ref="country"></xs:element>
-    </xs:sequence>
-</xs:complexType>
+<xs:element name="shipto">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="name"></xs:element>
+            <xs:element ref="address"></xs:element>
+            <xs:element ref="city"></xs:element>
+            <xs:element ref="country"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
 
 <xs:element name="item">
     <xs:complexType>
         <xs:sequence>
             <xs:element ref="title"></xs:element>
-            <xs:element ref="note"></xs:element>
+            <xs:element ref="note" minOccurs="0"></xs:element>
             <xs:element ref="quantity"></xs:element>
             <xs:element ref="price"></xs:element>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
 
+<xs:element name="shiporder">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="orderperson"></xs:element>
+            <xs:element ref="shipto"></xs:element>
+            <xs:element ref="item" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
 </xs:schema>
