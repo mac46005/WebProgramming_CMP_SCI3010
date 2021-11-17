@@ -39,6 +39,7 @@
             4. elements that contain both other elements and text
         -->
         <xs:sequence maxOccurs="1" minOccurs="1">
+            
             <!-- 
                 The squence element specifies that the child elements must
                 appear in a sequence. Each child element can occur from 0
