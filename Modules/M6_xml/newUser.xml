@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./userModel.xsd">
+    <id>4</id>
+    <userName>mac46005</userName>
+    <password>Dollfacelover2021!</password>
+    <firstName>Marco</firstName>
+    <lastName>Preciado</lastName>
+    <address01>1503 Wildhorse Pkwy Dr.</address01>
+    <address02></address02>
+    <city>Saint Louis</city>
+    <state>MO</state>
+    <zip>63005</zip>
+    <phoneNumber>3148858641</phoneNumber>
+    <email>mac46005@gmail.com</email>
+    <gender>Male</gender>
+    <maritalStatus>Married</maritalStatus>
+    <dob>12/19/1992</dob>
+</userModel>
